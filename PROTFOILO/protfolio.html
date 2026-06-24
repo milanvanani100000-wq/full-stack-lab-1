@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Milan Vanani — Full Stack Developer</title>
+        <meta name="description" content="Portfolio of Milan Vanani — Full Stack Developer. Projects, skills, and contact information.">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="protfolio.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="#home">Milan Vanani</a>
+                <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+                <nav id="primary-navigation" class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="container hero-grid">
+                    <div class="hero-copy">
+                        <p class="eyebrow">College Portfolio</p>
+                        <h1>Hi, I'm <span>Milan</span>. I design smart, student-focused web applications.</h1>
+                        <p>I combine classroom learning with hands-on development to build responsive, accessible, and maintainable websites.</p>
+                        <div class="hero-actions">
+                            <a class="btn" href="#projects">View Work</a>
+                            <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-card" aria-hidden="true">
+                        <div class="hero-card-top"></div>
+                        <div class="hero-card-body">
+                            <p class="hero-card-label">Snapshot</p>
+                            <ul>
+                                <li><strong>Computer Science</strong> student</li>
+                                <li><strong>5+</strong> academic projects</li>
+                                <li><strong>HTML, CSS, JS, PHP</strong> experience</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section about">
+                <div class="container about-grid">
+                    <div>
+                        <h2>About Me</h2>
+                        <p>I am a college student focused on web development, software engineering, and practical solutions. I enjoy creating websites that are easy to use and fast to load.</p>
+                        <p>My goal is to build projects that demonstrate strong technical skills and clear design thinking.</p>
+                    </div>
+                    <div class="about-details">
+                        <div>
+                            <h3>Strengths</h3>
+                            <p>Problem solving, collaboration, and clean development practice.</p>
+                        </div>
+                        <div>
+                            <h3>Aspirations</h3>
+                            <p>Work on meaningful projects, learn new technologies, and improve user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="section education">
+                <div class="container">
+                    <h2>Education</h2>
+                    <div class="education-grid">
+                        <article class="education-card">
+                            <h3>Bachelor of Computer Science</h3>
+                            <p>XYZ College of Engineering</p>
+                            <p>2023 - Present</p>
+                            <p>Studying web development, databases, algorithms, and software design through coursework and team projects.</p>
+                        </article>
+                        <article class="education-card">
+                            <h3>Higher Secondary School</h3>
+                            <p>ABC Higher Secondary School</p>
+                            <p>2021 - 2023</p>
+                            <p>Completed advanced coursework in mathematics, physics, and computer science with strong performance.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section projects">
+                <div class="container">
+                    <h2>Projects</h2>
+                    <div class="project-grid">
+                        <article class="project-card">
+                            <h3>E-Commerce Website</h3>
+                            <p>A student project built with PHP and MySQL that includes product pages, shopping cart, and checkout interface.</p>
+                        </article>
+                        <article class="project-card">
+                            <h3>Student Management System</h3>
+                            <p>An academic portal for handling student records, grades, and attendance with clean CRUD functionality.</p>
+                        </article>
+                        <article class="project-card">
+                            <h3>Easy Stock</h3>
+                            <p>An inventory tracker that helps manage stock levels and update quantities from the browser.</p>
+                            <a class="card-link" href="easy-stock/index.html">Open Easy Stock</a>
+                        </article>
+                        <article class="project-card">
+                            <h3>Library Management</h3>
+                            <p>A library system for browsing books, tracking borrowed items, and maintaining inventory locally.</p>
+                            <a class="card-link" href="library-management/index.html">Open Library Management</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact">
+                <div class="container contact-grid">
+                    <div>
+                        <h2>Contact</h2>
+                        <p>Interested in internships, collaborations, or student projects? Email me at <a href="mailto:milan@example.com">milan@example.com</a>.</p>
+                        <ul class="contact-list">
+                            <li><strong>Email:</strong> milan@example.com</li>
+                            <li><strong>Location:</strong> India</li>
+                        </ul>
+                    </div>
+                    <form class="contact-form" action="mailto:milan@example.com" method="post" enctype="text/plain">
+                        <label>
+                            <span>Name</span>
+                            <input type="text" name="name" required>
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            <span>Message</span>
+                            <textarea name="message" rows="5" required></textarea>
+                        </label>
+                        <button class="btn" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <small>&copy; <span id="year">2026</span> Milan Vanani</small>
+            </div>
+        </footer>
+
+        <script>
+            (function(){
+                const navToggle = document.querySelector('.nav-toggle');
+                const nav = document.getElementById('primary-navigation');
+                navToggle && navToggle.addEventListener('click', ()=>{
+                    const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+                    navToggle.setAttribute('aria-expanded', String(!expanded));
+                    nav.classList.toggle('open');
+                });
+                document.querySelectorAll('a[href^="#"]').forEach(a=>{
+                    a.addEventListener('click', function(e){
+                        const target = document.querySelector(this.getAttribute('href'));
+                        if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'}); }
+                    });
+                });
+                document.getElementById('year').textContent = new Date().getFullYear();
+            })();
+        </script>
+    </body>
+</html>
